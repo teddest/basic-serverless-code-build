@@ -23,7 +23,6 @@ service: basic-serverless-code-build
 provider:
   name: aws
   runtime: nodejs12.x
-  role: arn:aws:iam::688035042187:role/basic-serverless-code-build-role
 
 # you can overwrite defaults here
 #  stage: dev
